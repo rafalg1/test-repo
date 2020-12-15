@@ -1,0 +1,241 @@
+body {
+  margin: 0px;
+  background-color: #333;
+  color: white;
+  font-family: Calibri;
+  font-size: 30px;
+}
+footer {
+  font-size: 20px;
+}
+.screen {
+  width: 100%;
+}
+.navCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: #444; */
+  /* margin: 10px; */
+  border-radius: 8px;
+}
+.topCard {
+  width: 90%;
+
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: #444; */
+  /* margin: 10px; */
+  border-radius: 8px;
+}
+.btnGen{
+  font-size: 40px;
+  padding: 30px 0px;
+  background: #333;
+  width: 42%;
+  outline: none;
+  margin:10px;
+  border-radius: 8px;
+}
+
+.btnOut {
+  border: 2px solid #88bb88;
+  color: #88bb88;
+}
+.btnOutActiv {
+  color: #444;
+  background: #88bb88;
+}
+.btnGet {
+  border: 2px solid #ffcc66;
+  color: #ffcc66;
+}
+.btnGet:active {
+  color: #444;
+  background: #ffcc66;
+}
+
+.btnTime {
+  font-size: 35px;
+  padding: 15px;
+  background: #444;
+  outline: none;
+  border: 2px solid #339966;
+  color: #339966;
+  /* width: 42%; */
+  /* margin:10px; */
+  border-radius: 8px;
+}
+.btnTime:active {
+  color: #444;
+  background: #339966;
+}
+
+
+
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  width: 90%;
+  border: 4px solid #339966;
+  /* background-color: #444; */
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.sekcjaTxt {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding: 4px;
+  margin-bottom: 15px;
+  border-radius-bottom: 0;
+  color: #333;
+  background: #339966;
+  font-weight: bold;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #339966;
+  font-weight: bold;
+}
+.wpis {
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #555;
+}
+.wpisTxt1 {
+    font-size: 38px;
+    width: 32%;
+}
+.wpisTxt2 {
+    font-size: 38px;
+    width: 40%;
+}
+.btnDelete {
+  background: #333;
+  outline: none;
+  border-radius: 8px;
+  max-width: 180px;
+  width: 20%;
+  font-size: 60px;
+  border: 3px solid #ff6666;
+  color: #ff6666;
+  font-weight: bold;
+}
+.btnDelete:active {
+  background: #ff6666;
+  color: #333;
+}
+.btnCancel {
+  color: #ff6666;
+  border: 2px solid #ff6666;
+}
+.btnCancel:active {
+  background: #ff6666;
+  color: #333;
+}
+.btnAdd {
+  margin:30px;
+}
+.btnBottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.btnAddSet {
+}
+
+.wpis1 {
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 3px solid #339966;
+  font-size: 40px;
+  color: #ccffcc;
+}
+.btnDay {
+  color: #ccffcc;
+  min-width: 140px;
+  padding: 15px;
+  color: #ccffcc;
+  background: none;
+  outline: none;
+  border: 2px solid #ccffcc;
+  border-radius: 8px;
+  margin-right: 15px;
+  font-size: 35px;
+  margin:20px;
+}
+.btnDayActiv {
+  background: #ccffcc;
+  color: #444;
+}
+.dolewanieDiv {
+    font-size: 40px;
+  display: flex;
+    color: #ccffcc;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sekcja {
+  font-size: 40px;
+  margin-top: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intputGen {
+  font-size: 40px;
+  width: 20%;
+  padding: 20px;
+  outline: none;
+  background-color: #333;
+  border: 3px solid #ccffcc;
+  border-radius: 8px;
+  margin-left: 30px;
+  color: #ccffcc;
+}
+.dolewanie {
+}
+.czasDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.timeDiv {
+  margin-top: 20px;
+  color: #339966;
+  font-size: 40px;
+}
+.btnDolejClass {
+  margin:30px;
+}

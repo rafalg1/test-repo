@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="google" content="notranslate">
+    <meta charset="utf-8" content="user-scalable=no">
+    <title>Nawadnianie</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="title">Sterownik nawadniana ogrodu</div>
+
+      <div id="mainWindow" class="card_container" style="display:none">
+        <div class="topCard">
+          <button id='btnOut1' class="btnGen btnOut">Sekcja1 (tył)</button>
+          <button id='btnOut2' class="btnGen btnOut">Sekcja2 (dom)</button>
+          <button id='btnOut3' class="btnGen btnOut">Sekcja3 (centrum)</button>
+          <button id='btnOut4' class="btnGen btnOut">Sekcja4 (chodnik)</button>
+          <button id='btnTryb' class="btnGen btnGet">Tryb automatyczny</button>
+          <button id='btnSaveSet' class="btnGen btnGet">Zapisz nastawy</button>
+        </div>
+        <div id="card1" class="card">
+          <div class="sekcjaTxt">Sekcja 1 (tył)</div>
+          <div id="line1"></div>
+          <div class="center"><button id='dodaj1' class="btnGen btnGet btnAdd">Dodaj</button></div>
+        </div>
+        <div id="card2" class="card">
+          <div class="sekcjaTxt">Sekcja 2 (dom)</div>
+          <div id="line2">
+          </div>
+          <div class="center"><button id='dodaj2' class="btnGen btnGet btnAdd">Dodaj</button></div>
+        </div>
+        <div id="card3" class="card">
+          <div class="sekcjaTxt">Sekcja 3 (centrum)</div>
+          <div id="line3">
+          </div>
+          <div class="center"><button id='dodaj3' class="btnGen btnGet btnAdd">Dodaj</button></div>
+        </div>
+        <div id="card4" class="card">
+          <div class="sekcjaTxt">Sekcja 4 (chodnik)</div>
+          <div id="line4">
+          </div>
+          <div class="center"><button id='dodaj4' class="btnGen btnGet btnAdd">Dodaj</button></div>
+        </div>
+        <div id="card4" class="card">
+
+          <div class="sekcjaTxt">Dolewanie</div>
+
+          <div class="dolewanieDiv">
+          <div class="sekcja">Sekcja 1 (tył):
+            <input type="number" id="Dolej1" min="0" max="30" class="intputGen dolewanie">
+          </div>
+          <div class="sekcja">Sekcja 2 (dom):
+            <input type="number" id="Dolej2" min="0" max="30" class="intputGen dolewanie">
+          </div>
+          <div class="sekcja">Sekcja 3 (centrum):
+            <input type="number" id="Dolej3" min="0" max="30" class="intputGen dolewanie">
+          </div>
+          <div class="sekcja">Sekcja 4 (chodnik):
+            <input type="number" id="Dolej4" min="0" max="30" class="intputGen dolewanie">
+          </div>
+          <div class="sekcja">Przerwa:
+            <input type="number" id="Dolej5" min="0" max="30" class="intputGen dolewanie">
+          </div>
+          <!-- <div class="sekcja">
+          </div> -->
+          </div>
+          <div class="center">
+            <button id='btnDolej' class="btnGen btnGet btnDolejClass">Dolej</button>
+          </div>
+        </div>
+        <!-- <div class="card">
+          <div class="sekcjaTxt">Przerwa w trybie automatycznym</div>
+        </div> -->
+        <div class="card">
+          <div class="sekcjaTxt">Czas</div>
+          <div class="czasDiv">
+            <div id="czas" class="timeDiv"></div>
+            <button id='updateTime' class="btnGen btnGet btnDolejClass">Aktualizuj czas</button>
+
+          </div>
+        </div>
+      </div>
+                <div id="czas" class="timeDiv"></div>
+
+      <div id="addWindow" class="card_container" style="display:none">
+        <div class="card">
+          <div id="addHeading" class="sekcjaTxt"></div>
+
+          <div class="wpis1">
+            <label for="setTime">Godzina: </label>
+            <input type="time" id="setTime" class="intputGen" min="00:00" max="23:59" required valueAsNumber>
+          </div>
+
+          <div class="wpis1">
+            <label for="setDuration">Czas: </label>
+            <input type="number" id="setDuration" min="1" max="30" class="intputGen" required>
+          </div>
+          <div class="wpis1">
+            <button id='dayCodzien' class="btnDay">Codziennie</button>
+            <button id='day1' class="btnDay">Pon</button>
+            <button id='day2' class="btnDay">Wto</button>
+            <button id='day3' class="btnDay">Śro</button>
+            <button id='day4' class="btnDay">Czw</button>
+            <button id='day5' class="btnDay">Pią</button>
+            <button id='day6' class="btnDay">Sob</button>
+            <button id='day7' class="btnDay">Nie</button>
+          </div>
+          <div class="btnBottom">
+            <button id='addSet' class="btnGen btnGet">Wprowadź</button>
+            <button id='cancelSet' class="btnGen btnGet btnCancel">Anuluj</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Sterownik nawadniana. Rafał Gwóźdź 27.04.2020r.</p>
+    </footer>
+  </body>
+</html>
